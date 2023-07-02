@@ -50,15 +50,15 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .form-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
     margin-bottom: 50px;
-    padding: 50px 100px;
+    padding: 0px 50px 50px 100px;
 }
 
 .form-heading p {
