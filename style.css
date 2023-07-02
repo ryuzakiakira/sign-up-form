@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(215, 238, 241, 0.699);
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image img{
+    height: 100%;
+    width: auto;
+}
+
+.image {
+    position: relative;
+    height: 100vh;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.link {
+    position: absolute;
+    bottom: 15px;
+    margin-left: 140px;
+    padding: 10px;
+    border: 1px solid #4e4a4a;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.link:hover {
+    scale: 1.05;
+}
+
+.link a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.form {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px 100px;
+    /* border: 1px solid rgba(154, 221, 243, 0.308);
+    background-color: rgba(154, 221, 243, 0.308); */
+}
+
+.form-heading p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(121, 117, 117);
+}
+
+input {
+    appearance: none;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.form-row label {
+    justify-content: flex-start;
+}
+
+.form-row input[type='text'],
+.form-row input[type='email'],
+.form-row input[type='number'],
+.form-row input[type='password'] {
+    justify-self: flex-end;
+    padding: 5px;
+    border: 1px solid rgba(83, 72, 72, 0.404);
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.submit button{
+    padding: 10px 40px;
+    border: 1px solid rgba(83, 72, 72, 0.404);
+    border-radius: 5px;
+    background-color: #5995DA;
+}
+
+.submit button:hover {
+    background-color: rgba(67, 162, 218, 0.705);
+}
