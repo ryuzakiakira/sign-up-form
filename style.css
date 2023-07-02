@@ -6,6 +6,7 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(215, 238, 241, 0.699);
+    font-size: 17px;
 }
 
 .page {
@@ -58,8 +59,6 @@ html {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 50px 100px;
-    /* border: 1px solid rgba(154, 221, 243, 0.308);
-    background-color: rgba(154, 221, 243, 0.308); */
 }
 
 .form-heading p {
@@ -111,5 +110,9 @@ input {
 }
 
 .form-row input:required:valid {
-    border: 2px solid rgba(48, 161, 48, 0.582)
+    border: 2px solid rgba(48, 161, 48, 0.582);
+}
+
+.form-row input:required:invalid:focus {
+    box-shadow: 2px 2px 5px rgba(231, 56, 56, 0.678);
 }
